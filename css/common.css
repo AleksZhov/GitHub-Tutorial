@@ -1,0 +1,43 @@
+body {
+  background-color: rgb(203, 255, 251);
+}
+
+button {
+  padding: 20px;
+  margin: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  font-size: 20px;
+}
+.container {
+  border: 1px solid blue;
+}
+.tags {
+  outline: 1px solid blueviolet;
+}
+
+.palette {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.is-active {
+  font-weight: 700;
+  color: aqua;
+  background-color: navy;
+}
+.color-card {
+  height: 200px;
+  width: 200px;
+  background-color: #fff;
+}
+.color-swatch {
+  height: 180px;
+}
+.is-active {
+  outline: 5px solid black;
+}
+.card-cont {
+  width: 250px;
+  height: 250px;
+}
